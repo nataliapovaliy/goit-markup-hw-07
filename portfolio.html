@@ -180,32 +180,36 @@
             </div>
     </main>
 <!------------- Футер ------------->
-    <footer>
+    <footer class="section-footer">
       <div class="container">
-        <div class="footer-list">
+        <div class="section-footer__list">
           <!------------- Футер-контакты ------------->
           <div class="footer-kontact list">
-            <a class="logo logo-accent" href="./index.html" lang="en"
-              >Web<span class="logo logo-accent-footer">Studio</span></a
+            <a class="logo logo--accent" href="./index.html" lang="en"
+              >Web<span class="logo logo--accent-footer">Studio</span></a
             >
             <address>
-              <ul class="address-list list">
-                <li class="footer-contact-item">
+              <ul class="footer-kontact__list list">
+                <li class="footer-kontact__item">
                   <a
                     href="https://www.google.com/maps/d/embed?mid=10uSM3H-mIU3GznYo2szRIEphczw&hl=en_US&ehbc=2E312F"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="footer-link footer-link-adress"
+                    class="footer-kontact__link footer-kontact__link-accent"
                     >м. Київ, пр-т Лесі Українки, 26</a
                   >
                 </li>
-                <li class="footer-contact-item">
-                  <a href="mailto:info@devstudio.com" class="footer-link"
+
+                <li class="footer-kontact__item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="footer-kontact__link"
                     >info@devstudio.com</a
                   >
                 </li>
-                <li class="footer-contact-item">
-                  <a href="tel:+380961111111" class="footer-link"
+
+                <li class="footer-kontact__item">
+                  <a href="tel:+380961111111" class="footer-kontact__link"
                     >+38 096 111 11 11</a
                   >
                 </li>
@@ -214,32 +218,32 @@
           </div>
           <!------------- Футер-соцсети ------------->
           <div class="footer-social list">
-            <p class="footer-title-soc">Приєднуйтесь</p>
-            <ul class="team-social list">
-              <li class="team-soc-item">
-                <a href="" class="team-soc-link footer-soc-link">
-                  <svg class="team-soc-icon" width="20" height="20">
+            <p class="footer-social__title">Приєднуйтесь</p>
+            <ul class="social list">
+              <li class="social__item">
+                <a href="" class="social__link social__link--accent">
+                  <svg class="social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-soc-item">
-                <a href="" class="team-soc-link footer-soc-link">
-                  <svg class="team-soc-icon" width="20" height="17">
+              <li class="social__item">
+                <a href="" class="social__link social__link--accent">
+                  <svg class="social__icon" width="20" height="17">
                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-soc-item">
-                <a href="" class="team-soc-link footer-soc-link">
-                  <svg class="team-soc-icon" width="20" height="20">
+              <li class="social__item">
+                <a href="" class="social__link social__link--accent">
+                  <svg class="social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
-              <li class="team-soc-item">
-                <a href="" class="team-soc-link footer-soc-link">
-                  <svg class="team-soc-icon" width="20" height="20">
+              <li class="social__item">
+                <a href="" class="social__link social__link--accent">
+                  <svg class="social__icon" width="20" height="20">
                     <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                   </svg>
                 </a>
@@ -247,21 +251,19 @@
             </ul>
           </div>
           <!------------- Футер-подписка ------------->
-          <div class="footer-subscription list">
-            <p class="footer-title-soc">Підпишіться на розсилку</p>
+          <div class="footer-subs list">
+            <p class="footer-social__title">Підпишіться на розсилку</p>
             <form name="subscription" autocomplete="on" novalidate>
-              <div class="footer-sbscr-box">
-                <label class="footer-label">
-                  <!-- <div class=""> -->
+              <div class="footer-subs__box">
+                <label>
                   <input
-                    class="footer-input-box"
+                    class="footer-subs__input"
                     type="email"
                     name="email-subscription"
                     placeholder="E-mail"
                   />
-                  <!-- </div> -->
                 </label>
-                <button class="button-footer" type="submit">
+                <button class="footer-subs__button" type="submit">
                   Підписатися
                   <svg class="" width="24" height="24">
                     <use href="./images/symbol-defs.svg#icon-icon-send"></use>
