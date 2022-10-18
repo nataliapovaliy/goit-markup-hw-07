@@ -46,7 +46,6 @@ header {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* outline: 2px solid tomato; */
 }
 
 /* -------------Логотип------------- */
@@ -68,11 +67,11 @@ header {
   align-items: center;
   justify-content: flex-start;
 }
-.main-nav-logo {
+/* .main-nav-logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-}
+} */
 
 /* -------------Site nav------------- */
 .site-nav {
@@ -84,15 +83,15 @@ header {
     background-color:  tomato;
 } */
 
-.site-nav .item-nav + .item-nav {
+.site-nav .site-nav__item + .site-nav__item {
   margin-left: 50px;
 }
 
-.item-nav {
+.site-nav__item {
   position: relative;
 }
 
-.site-nav .link {
+.site-nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -105,7 +104,7 @@ header {
   text-decoration: none;
 }
 
-.link.current::after {
+.site-nav__link.current::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -116,14 +115,14 @@ header {
   border-radius: 2px;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
 }
 
-.site-nav .link.current {
+.site-nav__link.current {
   color: var(--accent-color);
 }
 
@@ -134,22 +133,19 @@ header {
   align-items: center;
 }
 
-.kontact-nav .item + .item {
+.kontact-nav .kontact-nav__item + .kontact-nav__item {
   margin-left: 50px;
 }
 
-.item-icon-kontact {
+.kontact-nav__icon {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.kontact-nav .link {
+.kontact-nav__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
-
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -158,8 +154,8 @@ header {
   text-decoration: none;
 }
 
-.kontact-nav .link:hover,
-.kontact-nav .link:focus {
+.kontact-nav__link:hover,
+.kontact-nav__link:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
@@ -185,7 +181,7 @@ header {
   background-repeat: no-repeat;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-bottom: 30px;
   margin-left: auto;
