@@ -217,20 +217,25 @@ header {
   margin-top: 0;
   padding-bottom: 94px;
 }
+
 .section--benefits {
   padding-top: 94px;
   /* padding-bottom: 94px; */
 }
+
 .section__list {
   display: flex;
   justify-content: center;
 }
+
 .section__list .section__item + .section__item {
   margin-left: 30px;
 }
+
 .section__item {
   width: 270px;
 }
+
 .section__icon--box {
   /* display: flex; */
   height: 120px;
@@ -240,9 +245,11 @@ header {
   border-radius: 4px;
   margin-bottom: 30px;
 }
+
 .section__icon {
   display: flex;
 }
+
 .section__subtitle {
   margin-top: 0;
   margin-bottom: 10px;
@@ -252,6 +259,7 @@ header {
   line-height: 1.14;
   text-transform: uppercase;
 }
+
 .section__text {
   margin-top: 0;
   margin-bottom: 0;
@@ -259,7 +267,8 @@ header {
   font-size: 14px;
   line-height: 1.71;
 }
-.section-title {
+
+.section__title {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--title-text-color);
@@ -268,39 +277,40 @@ header {
   line-height: 1.17;
   text-align: center;
 }
-img {
-  display: block;
-  margin: 0;
-}
-.section-img {
+
+.section-work {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.section-img .item + .item {
+
+.section-work .item + .item {
   margin-left: 30px;
 }
-.box-img {
+
+.section-work__card {
   position: relative;
-  /* bottom: 0; */
 }
-.section-box {
+
+.section-work__img {
+  display: block;
+  margin: 0;
+}
+
+.section-work__box {
   display: flex;
   width: 370px;
   align-items: center;
   justify-content: center;
-  /* padding-top: 27px;
-  padding-bottom: 27px; */
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
   position: absolute;
   bottom: 0;
 }
-.section-box-title {
+.section-work__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-text-color);
