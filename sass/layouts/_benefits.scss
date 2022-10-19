@@ -1,13 +1,4 @@
-/* -------------section benefits------------- */
-.section {
-  margin-top: 0;
-  padding-bottom: 94px;
-}
-
-/* .section--benefits {
-  padding-top: 94px; */
-/* padding-bottom: 94px; */
-/* } */
+/* -------------Переваги section benefits------------- */
 
 .section__box {
   padding-top: 94px;
@@ -17,15 +8,17 @@
   justify-content: center;
 }
 
-.section__list .section__item + .section__item {
-  margin-left: 30px;
-}
-
 .section__item {
   width: 270px;
+  .section__list & + & {
+  margin-left: 30px;
+}
 }
 
-.section__icon--box {
+.section__icon {
+  display: flex;
+
+  &--box {
   /* display: flex; */
   height: 120px;
   align-items: center;
@@ -33,10 +26,7 @@
   background-color: var(--section-bg-color);
   border-radius: 4px;
   margin-bottom: 30px;
-}
-
-.section__icon {
-  display: flex;
+  }
 }
 
 .section__subtitle {

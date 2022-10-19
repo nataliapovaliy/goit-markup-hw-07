@@ -3,10 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
 
-.section-work .item + .item {
+  & .item + .item {
   margin-left: 30px;
+  }
 }
 
 .section-work__card {

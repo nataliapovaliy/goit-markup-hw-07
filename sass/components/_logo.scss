@@ -1,0 +1,17 @@
+/* -------------Логотип------------- */
+.logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+
+  &--accent {
+  color: var(--accent-color);
+  }
+
+  &--accent-footer {
+  color: var(--accent-text-color);
+  }
+}

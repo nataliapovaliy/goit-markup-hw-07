@@ -23,6 +23,26 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--accent-color);
+  color: var(--accent-bg-color);
+  }
+
+  &--accent {
+  background-color: var(--icon-transparency-color);
+  color: var(--accent-bg-color);
+  }
+
+  &--accent:hover,
+  &--accent:focus {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--accent-color);
+  }
 }
 
 .social__icon {
@@ -30,12 +50,4 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: currentColor;
-}
-
-.social__link:hover,
-.social__link:focus {
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--accent-color);
-  color: var(--accent-bg-color);
 }

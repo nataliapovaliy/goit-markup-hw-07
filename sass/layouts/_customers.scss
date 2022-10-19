@@ -1,8 +1,4 @@
 /* -------------customers------------- */
-/* .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
 
 .customer__list {
   display: flex;
@@ -26,16 +22,16 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.customer__icon {
-  fill: currentColor;
-}
-
-.customer__link:hover,
-.customer__link:focus {
+  &:hover,
+  &:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
   border-color: inherit;
+  }
+}
+
+.customer__icon {
+  fill: currentColor;
 }
