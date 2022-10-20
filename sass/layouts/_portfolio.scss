@@ -1,9 +1,9 @@
 /* -------------portfolio.html------------- */
 
 .portfolio-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--primery-bg-color);
+  padding-top: $SizePadding;
+  padding-bottom: $SizePadding;
+  background-color: $ColorBgPrimery;
 }
 
 .menu {
@@ -23,24 +23,24 @@
   padding: 6px 22px;
   border: 1px solid transparent;
   cursor: pointer;
-  color: var(--title-text-color);
-  background-color: var(--button-bg-volor-porfolio);
+  color: $ColorTitleText;
+  background-color: $ColorBtnPortfolio;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
   text-align: center;
 
   &--primery {
-    color: var(--accent-text-color);
-    background-color: var(--accent-color);
+    color: $ColorAccentWhite;
+    background-color: $ColorAccent;
   }
 
   &:hover,
   &:focus {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    color: var(--accent-text-color);
-    background-color: var(--accent-color);
+    color: $ColorAccentWhite;
+    background-color: $ColorAccent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
@@ -106,7 +106,7 @@
 .portfolio__title {
   margin: 0;
   margin-bottom: 4px;
-  color: var(--title-text-color);
+  color: $ColorTitleText;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -116,7 +116,7 @@
 
 .portfolio__text {
   margin: 0;
-  color: var(--primery-text-color);
+  color: $ColorPrimeryText;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;

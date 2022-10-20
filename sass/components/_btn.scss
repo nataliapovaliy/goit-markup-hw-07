@@ -1,12 +1,12 @@
 /* -------------button------------- */
 .button {
   display: inline-block;
-  border-radius: 4px;
+  border-radius: $BorderRadius;
   padding: 10px 32px;
   border: 1px solid transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: var(--accent-text-color);
-  background-color: var(--accent-color);
+  color: $ColorAccentWhite;
+  background-color: $ColorAccent;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;

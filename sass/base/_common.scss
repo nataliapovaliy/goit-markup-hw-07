@@ -12,7 +12,7 @@ body {
   margin: 0;
   background-color: var(--primery-bg-color);
   color: var(--primery-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: $MainFont, $FontFamily;
   letter-spacing: 0.03em;
 }
 
@@ -25,12 +25,12 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: $mainWidth;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 .section {
   margin-top: 0;
-  padding-bottom: 94px;
+  padding-bottom: $SizePadding;
 }

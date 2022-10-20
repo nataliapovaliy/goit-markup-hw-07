@@ -28,20 +28,20 @@
   &:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--accent-color);
-  color: var(--accent-bg-color);
+  background-color: $ColorAccent;
+  color: $ColorAccentWhite;
   }
 
   &--accent {
   background-color: var(--icon-transparency-color);
-  color: var(--accent-bg-color);
+  color: $ColorAccentWhite;
   }
 
   &--accent:hover,
   &--accent:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: var(--accent-color);
+  background-color: $ColorAccent;
   }
 }
 
