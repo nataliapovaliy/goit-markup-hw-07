@@ -45,6 +45,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.container--box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 .section {
   margin-top: 0;
@@ -103,9 +108,6 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--accent-color);
 }
-.site-nav__link.current {
-  color: var(--accent-color);
-}
 
 /* -------------kontact-nav------------- */
 .kontact-nav {
@@ -142,7 +144,7 @@ header {
 
 /* -------------Логотип------------- */
 .logo {
-  color: #212121;
+  color: #2196f3;
   font-family: Raleway, sans;
   font-weight: 700;
   font-size: 26px;
@@ -150,7 +152,7 @@ header {
   text-decoration: none;
 }
 .logo--accent {
-  color: #2196f3;
+  color: #212121;
 }
 .logo--accent-footer {
   color: #fff;
@@ -524,17 +526,17 @@ header {
   background-color: #fff;
 }
 
-.menu {
+.filters {
   display: flex;
   justify-content: center;
   padding-bottom: 16px;
   margin-bottom: 34px;
 }
-.menu .item + .item {
+.filters .item + .item {
   margin-left: 8px;
 }
 
-.menu__btn {
+.filters__btn {
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
@@ -547,11 +549,11 @@ header {
   line-height: 1.625;
   text-align: center;
 }
-.menu__btn--primery {
+.filters__btn--primery {
   color: #fff;
   background-color: #2196f3;
 }
-.menu__btn:hover, .menu__btn:focus {
+.filters__btn:hover, .filters__btn:focus {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;

@@ -28,6 +28,12 @@ body {
   width: $mainWidth;
   padding-left: 15px;
   padding-right: 15px;
+
+  &--box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
 }
 
 .section {

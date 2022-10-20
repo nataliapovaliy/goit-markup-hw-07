@@ -1,6 +1,6 @@
 /* -------------Логотип------------- */
 .logo {
-  color: $ColorTitleText;
+  color: $ColorAccent;
   font-family: Raleway, sans;
   font-weight: 700;
   font-size: 26px;
@@ -8,7 +8,7 @@
   text-decoration: none;
 
   &--accent {
-  color: $ColorAccent;
+  color: $ColorTitleText;
   }
 
   &--accent-footer {
